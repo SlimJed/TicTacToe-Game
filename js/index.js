@@ -210,6 +210,9 @@ var compMove = function () {
 // INITIALIZES GAME
 $(document).ready(function () {
     newGame();
+    $('#restart').click(function(){
+        clearBoard();
+    });
 });
 
 
