@@ -79,7 +79,7 @@ var clearBoard = function (event) {
     xWin = false;
     oWin = false;
     newGame();
-    location.reload(); // WITHOUT THIS, THERE'S A BUG WHICH PLACES MULTIPLE 0'S ON ALL GAMES AFTER THE FIRST
+    location.reload(true); // WITHOUT THIS, THERE'S A BUG WHICH PLACES MULTIPLE 0'S ON ALL GAMES AFTER THE FIRST
 };
 
 // DECLARES WHO WON
